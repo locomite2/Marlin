@@ -34,6 +34,8 @@
 #define HEATER_0_PIN                        PA1   // HEATER1
 #define HEATER_BED_PIN                      PA2   // HOT BED
 #define FAN_PIN                             PA0   // FAN
-#define PROBE_ACTIVATION_SWITCH_PIN         PC6   // Optoswitch to Enable Z Probe
+//#define PROBE_ACTIVATION_SWITCH_PIN         PC6   // Optoswitch to Enable Z Probe
+
+#define SERVO0_PIN                          PA3
 
 #include "pins_CREALITY_V45x.h"
