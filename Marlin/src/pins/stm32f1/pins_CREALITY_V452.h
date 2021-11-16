@@ -36,6 +36,7 @@
 #define FAN_PIN                             PA0   // FAN
 //#define PROBE_ACTIVATION_SWITCH_PIN         PC6   // Optoswitch to Enable Z Probe
 
-#define SERVO0_PIN                          PA3
+#define SERVO0_PIN                          PC6   // 28    //PB2
+//#define SERVO0_PWM_OD
 
 #include "pins_CREALITY_V45x.h"
